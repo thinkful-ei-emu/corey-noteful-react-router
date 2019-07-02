@@ -8,15 +8,30 @@
   pointer-events: none;
 }
 
-.App-header {
+#header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.nav-bar {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.ListItems {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 50%;
+  
 }
 
 .App-link {
